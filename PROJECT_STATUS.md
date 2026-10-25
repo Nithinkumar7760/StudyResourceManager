@@ -6,19 +6,19 @@ This document tracks progress across the three independent modules of the Study 
 
 ## 1. Wikipedia Piece (Owner: Student 1)
 
-### Status: In Progress (Skeleton created on main, full feature being implemented on `wikipedia` branch)
+### Status: Completed (Implemented and verified on `wikipedia` branch)
 
 - [x] Shared data model `Resource` created under `model/`
 - [x] App shell with 3-tab Bottom Navigation (`Wikipedia`, `Books`, `Saved`) using Navigation Compose
 - [x] Retrofit, Gson, Coil, and Navigation dependencies integrated in `libs.versions.toml`
 - [x] `INTERNET` permission added in `AndroidManifest.xml`
-- [ ] Wikipedia API service configuration (Query Search API & REST Summary API)
-- [ ] DTO response models for Wikipedia search & page summary
-- [ ] Repository layer with mapper from Wikipedia items to shared `Resource` model
-- [ ] Wikipedia search ViewModel with StateFlow handling Loading, Success, Error, and Empty states
-- [ ] Wikipedia search UI with search input bar and results list (thumbnail, title, description)
-- [ ] Wikipedia detail screen showing title, thumbnail, full summary extract, and "Open in Browser" button
-- [ ] Error handling with retry action and empty state placeholders
+- [x] Wikipedia API service configuration (Query Search API & REST Summary API)
+- [x] DTO response models for Wikipedia search & page summary
+- [x] Repository layer with mapper from Wikipedia items to shared `Resource` model
+- [x] Wikipedia search ViewModel with StateFlow handling Loading, Success, Error, and Empty states
+- [x] Wikipedia search UI with search input bar and results list (thumbnail, title, description)
+- [x] Wikipedia detail screen showing title, thumbnail, full summary extract, and "Open in Browser" button
+- [x] Error handling with retry action and empty state placeholders
 
 ---
 
